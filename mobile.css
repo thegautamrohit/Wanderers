@@ -1,0 +1,186 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgba(211, 227, 236);
+  line-height: 1;
+}
+
+.main {
+  background: url("Images/Showcase1.jpg") no-repeat center center/cover fixed;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  color: #ffffff;
+}
+
+.main img {
+  height: 60px;
+  width: 60px;
+  margin-left: 10px;
+}
+
+nav ul {
+  margin-right: 10px;
+}
+
+.navbar a {
+  padding: 5px;
+  padding-left: 10px;
+  margin: 0px;
+}
+
+.navbar {
+  padding: 0px;
+}
+
+.navbar ul {
+  font-size: 10px;
+}
+
+.content h1 {
+  font-size: 35px;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  padding: 50px;
+}
+
+.content p {
+  font-size: 15px;
+}
+.booking {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.booking h2 {
+  font-size: 30px;
+  margin: 10px 0;
+}
+
+.booking .dates {
+  display: flex;
+  flex-direction: column;
+}
+
+.dates label {
+  font-size: 20px;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.dates input {
+  line-height: 1.5;
+  width: 200px;
+  margin: 0px;
+}
+
+.dates .end {
+  margin-left: 0;
+}
+
+.reservation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.reservation h3 {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.articles {
+  display: flex;
+  flex-direction: column;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid img {
+  height: 200px;
+  width: 200px;
+}
+
+.grid:nth-child(2) {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.side h3 {
+  font-size: 30px;
+  margin: 15px;
+  font-weight: 800;
+}
+
+.side p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 5px;
+}
+
+.facility {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70%;
+}
+
+.provide img {
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+}
+
+.provide h2 {
+  font-size: 25px;
+  margin: 50px 0 0 10px;
+}
+
+.division h3 {
+  font-size: 15px;
+}
+
+.feedback .items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.details {
+  display: flex;
+  flex-direction: column-reverse;
+  height: 100%;
+}
+
+.contact h2 {
+  font-size: 50px;
+  padding: 20px 0;
+}
+
+.contact::before {
+  content: "";
+  position: absolute;
+  height: 108vh;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
